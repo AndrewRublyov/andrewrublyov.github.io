@@ -25,3 +25,32 @@ h1, h2, h3, .h1, .h2, .h3 {
 .progress-bar-default {
 	background-color: #6c757d;
 }
+
+.skill-badges {
+	min-height: 80px;
+	margin-bottom: 20px;
+}
+
+.nav-pills .telegram-link:hover {
+    color: #ffffff;
+    background-color: #2196f3 !important;
+}
+
+.nav-pills .gmail-link:hover {
+    color: #ffffff;
+    background-color: #c71610 !important;
+}
+
+.nav-pills .linkedin-link:hover {
+    color: #ffffff;
+    background-color: #0077b5 !important;
+}
+
+.nav-pills .twitter-link:hover {
+    color: #ffffff;
+    background-color: #00aced !important;
+}
+
+.nav-pills .nav-item {
+	display: inline-block;
+}
