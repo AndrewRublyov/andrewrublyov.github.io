@@ -5,6 +5,14 @@
 	padding-right: 30px;
 }
 
+a {
+	font-weight: bold;
+}
+
+.nav a {
+	font-weight: normal;
+}
+
 p {
 	line-height: 1.8em;
 	font-size: inherit !important;
@@ -56,7 +64,29 @@ h1, h2, h3, .h1, .h2, .h3 {
 }
 
 .project-thumb {
-	width: 350px;
+	height: 250px;
+	background-size: 100%;
+	background-position: top center;
+	transition: .5s
+}
+
+.project-thumb:hover {
+	background-size: 110%;
+	transition: .5s
+}
+
+.project-thumb-small {
 	height: 150px;
-	background-size: cover;
+}
+
+.font-regular {
+	font-weight: normal !important; 
+}
+
+.project-badges {
+	margin: 10px 0;
+}
+
+.block {
+	margin-top: 48px;
 }
