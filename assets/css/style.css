@@ -54,3 +54,9 @@ h1, h2, h3, .h1, .h2, .h3 {
 .nav-pills .nav-item {
 	display: inline-block;
 }
+
+.project-thumb {
+	width: 350px;
+	height: 150px;
+	background-size: cover;
+}
